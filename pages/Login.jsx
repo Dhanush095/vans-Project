@@ -48,7 +48,8 @@ export default function Login() {
                 error?.message &&
                     <h3 className="login-error">{error.message}</h3>
             }
-
+            <h4>I currently do not have the budget to purchase an authentication server, so please use the credentials: User: free@user.com and  Password: 1234.
+            </h4>
             <form onSubmit={handleSubmit} className="login-form">
                 <input
                     name="email"
